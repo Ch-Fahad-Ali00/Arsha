@@ -104,7 +104,7 @@
     transition: all 0.4s;
 }
 .background-img{
-    background-image: url(https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp);
+    background: url(https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp) fixed;
     width: 100%;
     overflow: hidden;
     
@@ -128,4 +128,25 @@
     cursor: pointer;
     background-color:#0dcaf0;
     border:none
+}
+.image-animation{
+    overflow: hidden;
+}
+.overlay{
+    bottom: -90px;
+    transition: all 0.4s;
+    background-color: rgba(255,255,255,0.9);
+}
+.image-animation:hover .overlay{
+    bottom: 0;
+}
+.button{
+    transition: all 0.5s;
+}
+.u-list .button:hover{
+    
+    border-radius: 50px;
+    background-color:#0dcaf0;
+    padding:5px 1rem;
+    color: white;
 }
