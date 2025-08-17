@@ -156,3 +156,7 @@
 .card2:hover{
     transform: translateY(-10px);
 }
+.text-blog{
+    right: 0;
+    bottom: -355px;
+}
