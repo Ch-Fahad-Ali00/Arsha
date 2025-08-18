@@ -156,7 +156,27 @@
 .card2:hover{
     transform: translateY(-10px);
 }
-.text-blog{
-    right: 0;
-    bottom: -355px;
+.card{
+    overflow: hidden;
+}
+.blog-card img{
+    transition: all 0.5s;
+}
+.blog-card:hover img{
+    transform: scale(1.1);
+}
+.blog-card h5{
+    transition: all 0.5s;
+}
+.blog-card:hover h5{
+    color: var(--bs-info) !important;
+}
+.blog-card a{
+    transition: all 0.5s;
+}
+.blog-card:hover a{
+    color:var(--bs-info) !important;
+}
+.text-sm{
+    font-size: 0.8rem;
 }
